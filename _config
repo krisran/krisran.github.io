@@ -1,2 +1,4 @@
 name: Kris Ran
 markdowm: kramdown
+
+permalink: /blog/:year/:month/:day/:title
