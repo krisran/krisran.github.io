@@ -1,9 +1,9 @@
 body {
     margin: 60px auto;
-    width: 70%;
+    max-width: 640px;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Georgia', 'Palatino', 'Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
