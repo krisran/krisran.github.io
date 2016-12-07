@@ -1,6 +1,7 @@
 body {
     margin: 60px auto;
     max-width: 640px;
+    font-size: 100%;
 }
 nav ul, footer ul {
     font-family:'Georgia', 'Palatino', 'Serif';
@@ -20,12 +21,12 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     font-family: 'Georgia', 'Palatino', 'Serif';
 }
 p {
     font-size: 1.0em;
-    line-height: 1.4em;
+    line-height: 1.5em;
     color: #333;
 }
 footer {
@@ -40,4 +41,7 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+.excerpt {
+    color: #444;
 }
