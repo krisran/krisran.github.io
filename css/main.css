@@ -2,9 +2,9 @@ body {
     margin: 60px auto;
     max-width: 640px;
     font-size: 100%;
-}
-nav ul, footer ul {
     font-family:'Georgia', 'Palatino', 'Serif';
+}
+nav ul, footer ul {  
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -22,7 +22,6 @@ a:hover {
 }
 h1 {
     font-size: 2em;
-    font-family: 'Georgia', 'Palatino', 'Serif';
 }
 p {
     font-size: 1.0em;
@@ -44,4 +43,11 @@ ul.posts li {
 }
 .excerpt {
     color: #444;
+}
+.meta {
+    font-family: 'sans-serif';
+    color: #222;
+}
+.post {
+    font-family: 'sans-serif'; 
 }
