@@ -40,11 +40,13 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+    border: 0;
+    padding: 0;
 }
 .excerpt {
     color: #444;
 }
-.meta {
+ul.posts li .meta {
     font-family: 'sans-serif';
     color: #222;
 }
