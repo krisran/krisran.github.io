@@ -94,10 +94,12 @@ p a:visited {
 }
 .posts li a {	/* Blog Archive Page */
 	font-weight: bold;
-	padding-bottom: 1em;
+	padding: 1em 0 1em 0;
 	color: #222;
 }
-
+hr {
+	color: #ccc;
+}
 .post-content {
    max-width: 640px;
 }
