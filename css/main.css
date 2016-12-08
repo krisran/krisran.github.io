@@ -12,6 +12,12 @@ body {
 }
 ol, ul {
 	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+li {
+	padding: 0;
+	margin: 0;
 }
 blockquote, q {
 	quotes: none;
@@ -60,20 +66,20 @@ a {
  
 }
 .post-content {
-	
+	max-width: 640px;
 }
 .post-content p {
   font-size: 16px;
   font-family: "Georgia", "Serif";
   line-height: 1.5em;
+  color: #333;
 }
 .post-title {
   font-size: 24px;
-  font-weight: normal;
   color: #333;
 }
 .post-date, .post-words {
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: normal;
 	color: #444;
 }
