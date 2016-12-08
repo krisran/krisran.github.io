@@ -58,7 +58,7 @@ body {
 nav ul, footer ul {  
     padding: 0px;
     list-style: none;
-    font-weight: bold;
+    font-weight: normal;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -66,7 +66,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #666;
 }
 a:hover {
     text-decoration: underline;
@@ -82,6 +82,7 @@ p {
 footer {
 	position: absolute;
 	bottom: 0;
+	width: 100%;
 	padding: 2em;
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -105,7 +106,7 @@ ul.posts li {
 }
 .meta {
     font-family: 'sans-serif';
-    color: orange;
+    color: #333;
 }
 p.post {
     font-family: 'sans-serif'; 
