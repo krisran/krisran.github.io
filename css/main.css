@@ -1,8 +1,12 @@
 /* Reset */
 html {
   font-size: 100%;
--webkit-text-size-adjust: 100%; 
--ms-text-size-adjust: 100%; }
+  -webkit-text-size-adjust: 100%; 
+  -ms-text-size-adjust: 100%; }
+}
+* {
+   -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -28,6 +32,7 @@ blockquote, q {
 	font-size: 18px;
 	line-height: 1.6em;
 	font-style: italic;
+	font-weight: bold;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -47,7 +52,7 @@ p {
 }
 a {
    text-decoration: none;
-color: #666;
+   color: #666;
 }
 a:visited {
 	color: #777;
@@ -59,10 +64,6 @@ p a:visited {
   color: #999;
 }
 
-* {
-   -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
 
 /* media queries */
 @media (max-width: 768px) {
@@ -86,11 +87,10 @@ p a:visited {
 }
 
 .content {
-  max-width: 640px;
+  max-width: 640px; /* adjust when you figure out what to put on the home page */
   top: 0;
   float: none;
   margin: 0 auto;
- 
 }
 .post-content {
    max-width: 640px;
