@@ -11,6 +11,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-size: 16px;
 	font-family:  'Open Sans', sans-serif;
 }
 ol, ul {
@@ -82,7 +83,6 @@ p a:visited {
   max-width: 100%;
   height: 98vh;
   padding: 1vh;
-	font-size: 16px;
 }
 
 .content {
@@ -94,20 +94,6 @@ p a:visited {
 }
 .post-content {
    max-width: 640px;
-}
-.post-content p {
-  font-size: 16px;
-  line-height: 1.5em;
-  color: #333;
-}
-.post-title {
-  font-size: 24px;
-  color: #333;
-}
-.post-date, .post-words {
-	font-size: 14px;
-	font-weight: normal;
-	color: #444;
 }
 
 nav ul, footer ul {
