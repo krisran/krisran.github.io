@@ -30,6 +30,21 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+h1 {font-size: 32px;}
+h2 {font-size: 24px;}
+h3 {font-size: 18px;}
+h4 {font-size: 16px;}
+h5 {font-size: 14px;}
+h6 {font-size: 12px;}
+p {
+	font-size: 16px;
+	line-height: 1.6em;
+	color: #333;
+}
+p a {
+  text-decoration: none;
+  color: #4286f4;
+}
 
 * {
    -moz-box-sizing: border-box;
@@ -49,10 +64,6 @@ q:before, q:after {
     position: fixed;
   }
 
-}
-a {
-  text-decoration: none;
-  color: #555;
 }
 
 .container {
