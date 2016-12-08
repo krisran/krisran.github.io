@@ -80,6 +80,9 @@ p {
     color: #333;
 }
 footer {
+	position: absolute;
+	bottom: 0;
+	padding: 2em;
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
@@ -95,12 +98,12 @@ ul.posts li {
     list-style: none;
     border: 0;
     padding: 0;
-    margin: 0;
+    margin: 2em 0 0 0;
 }
 .excerpt {
     color: #444;
 }
-li.meta {
+.meta {
     font-family: 'sans-serif';
     color: orange;
 }
