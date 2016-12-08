@@ -57,12 +57,25 @@ a {
   top: 0;
   float: none;
   margin: 0 auto;
-  border: 1px solid blue;
+ 
 }
-.blog-post {
+.post-content {
+	
+}
+.post-content p {
   font-size: 16px;
   font-family: "Georgia", "Serif";
   line-height: 1.5em;
+}
+.post-title {
+  font-size: 24px;
+  font-weight: normal;
+  color: #333;
+}
+.post-date, .post-words {
+	font-size: 12px;
+	font-weight: normal;
+	color: #444;
 }
 
 nav ul, footer ul {
