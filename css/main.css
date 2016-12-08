@@ -41,8 +41,10 @@ p {
 	line-height: 1.6em;
 	color: #333;
 }
+a {
+	text-decoration: none;
+}
 p a {
-  text-decoration: none;
   color: #4286f4;
 }
 
