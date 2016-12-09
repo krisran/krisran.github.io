@@ -6,10 +6,11 @@ title: Blog Archive
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.date | date_to_string }} » {{ post.title }}</a>
-		    {{ post.excerpt }}
-		<hr>
-	    </li>	
-	  {% endfor %}
-		
+	 <li>
+		<a class="post-date" href="{{ post.url }}" title="{{ post.date }}">{{ post.date | date_to_string }}</a>
+		<a href="{{ post.url }}" title="{{ post.title }}"><h2 class="post-title"> {{ post.title }} </h2> </a>
+		<p>{{ post.excerpt }}..</p>
+		<a class="underline-link" href="{{ post.url }}" title="{{ post.title }}">Read More</a>
+	</li>
+	  {% endfor %}	
 	</ul>   
