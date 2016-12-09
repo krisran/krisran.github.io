@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<a class="post-date">{{ post.date | date_to_string }}</a>
-<h2 class="post-title">{{ post.title }}</h2>
+<a class="post-date" title="{{ post.title }}">{{ post.date | date_to_string }}</a>
+<h2 class="post-title" title="{{ posts.title }}">{{ post.title }}</h2>
 <p>{{ content }}</p>
 
 
