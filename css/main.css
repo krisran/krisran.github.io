@@ -87,9 +87,7 @@ a:hover {
 p a {
   color: #4286f4;
 }
-p a:visited {
-  color: #999;
-}
+
 /* main page container */
 .container {
   max-width: 100%;
