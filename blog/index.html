@@ -8,7 +8,7 @@ title: Blog Archive
 	 <li>
 		<a class="post-date" href="{{ post.url }}" title="{{ post.date }}">{{ post.date | date_to_string }}</a>
 		<a href="{{ post.url }}" title="{{ post.title }}"><h2 class="post-title"> {{ post.title }} </h2> </a>
-		{{ post.excerpt }}<span>..</span>
+		{{ post.excerpt }}
 		<a class="underline-link" href="{{ post.url }}" title="{{ post.title }}">Read More</a>
 	</li>
 	  {% endfor %}	
