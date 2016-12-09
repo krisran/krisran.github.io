@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Begin Weather App Today"
+date: 2016-12-09
+---
+
 I am going to start building the Free Code Camp Project, [Show The Local Weather](https://www.freecodecamp.com/challenges/show-the-local-weather) app today. This project needs to use the [Open Weather API](https://openweathermap.org/) and must fulfill the following user stories. 
 
 1. I can see the weather in my current location.
