@@ -79,7 +79,7 @@ a:hover {
     color: #666;
 }
 p a {
-    color: lightblue;
+    color: red;
 }
 
 /* main page container */
@@ -99,11 +99,10 @@ p a {
         top: 0;
         left: 0;
     }
-    nav li a {
+    nav li {
         border-bottom: 1px solid #f1f1f1;
         padding: 1em;
     }
-
     nav li:hover {
         background-color: #f1f1f1;
     }
@@ -160,12 +159,12 @@ p a {
     padding: 0 0 1em 0;
 }
 .post-date {
-    color: lightblue;
+    color: red;
     text-transform: uppercase;
     font-size: 12px;
 }
 .post .post-date:hover {
-    color: lightblue;
+    color: red;
     cursor: default;
 }
 .post {
