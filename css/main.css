@@ -1,7 +1,7 @@
 /* Reset */
 html {
   font-size: 100%;
-  -webkit-text-size-adjust: 100%; 
+  -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 }
 * {
@@ -20,12 +20,35 @@ body {
 }
 ol, ul {
 	list-style: none;
-	padding: 0;
-	margin: 0;
 }
-li {
+nav, ol, ul, li {
 	padding: 0;
 	margin: 0;
+  border: 0;
+}
+nav ul, footer ul {
+    padding: 0 0 0 1em;
+}
+nav ul li {
+  margin: 1em 0 1em 0;
+}
+footer ul li {
+  display: inline;
+}
+nav {
+  top: 10px;
+  left: 10px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  clear: right;
+}
+footer {
+  bottom: 10px;
+  left: 10px;
+  border: 0;
+  margin: 1em 0 1em 0;
+  padding: 0;
 }
 blockquote, q {
 	quotes: none;
@@ -55,7 +78,10 @@ a {
    color: #666;
 }
 a:visited {
-	color: #777;
+	color: #888;
+}
+a:hover {
+  color: #888;
 }
 p a {
   color: #4286f4;
@@ -63,68 +89,58 @@ p a {
 p a:visited {
   color: #999;
 }
-
-
-/* media queries */
-@media (max-width: 768px) {
-  nav, footer {
-    width: 100%;
-  }
-
+.underline-link {
+  border-bottom: 2px solid #777;
+  margin-bottom: 5px;
 }
-@media (min-width: 769px ) {
-  nav, footer {
-    width: 220px;
-    position: fixed;
-  }
-
+.underline-link:hover  {
+  border-bottom: 2px solid #999;
 }
-
+/* main page container */
 .container {
   max-width: 100%;
   height: 98vh;
   padding: 1vh;
 }
 
-.content {
-  max-width: 640px; /* adjust when you figure out what to put on the home page */
-  top: 0;
-  float: none;
-  margin: 0 auto;
+/* media queries */
+@media (max-width: 849px) {
+  nav, footer {
+    max-width: 100%;
+  }
+  .content {
+    max-width: 100%;
+    padding: 1em;
+  }
+
 }
-.posts li a {	/* Blog Archive Page */
-	font-weight: bold;
-	padding: 1em 0 1em 0;
-	color: #222;
-}
-hr {
-	color: #ccc;
-}
-.post-content {
-   max-width: 640px;
+@media (min-width: 850px ) {
+  nav, footer {
+    width: 210px;
+    position: fixed;
+  }
+  .content {
+    max-width: 640px;
+    top: 0;
+    float: none;
+    margin: 0 auto;
+  }
 }
 
-nav ul, footer ul {
-    padding: 0 0 0 1em;
+/* Blog Archive Page */
+.posts li {
+	padding: 1em 0 2em 0;
 }
-nav ul li {
-  margin-top: 10px;
+
+.post-date {
+  color: #888;
+  text-transform: uppercase;
+  font-size: 12px;
 }
-footer ul li {
-  display: inline;
-}
-nav {
-  top: 10px;
-  left: 10px;
-  padding: 0;
-  border: 0;
+.post-title {
+  color: #444;
   margin: 0;
-  clear: right;
-}
-footer {
-  bottom: 10px;
-  left: 10px;
+  padding: 5px 0 3px;
   border: 0;
-  margin: 0;
-  padding: 0;
 }
+
