@@ -106,6 +106,10 @@ p a {
     nav li:hover {
         background-color: #f1f1f1;
     }
+    nav li a {
+        height: 100%;
+        width: 100%;
+    }
     .content {
         max-width: 100%;
         z-index: 0;
