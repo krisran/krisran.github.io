@@ -98,9 +98,10 @@ p a {
         z-index: 3;
         top: 0;
         left: 0;
+        border-bottom: 1px solid #f1f1f1;
     }
     nav li {
-        border-bottom: 1px solid #f1f1f1;
+        display: inline-block;
         padding: 1em;
     }
     nav li:hover {
@@ -115,7 +116,7 @@ p a {
         z-index: 0;
         position: relative;
         float: none;
-        top: 13em;
+        top: 4em;
     }
 
     footer {
