@@ -117,6 +117,7 @@ p a {
         position: relative;
         float: none;
         top: 4em;
+        bottom: 4em;
     }
 
     footer {
