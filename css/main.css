@@ -117,7 +117,7 @@ p a {
         position: relative;
         float: none;
         top: 4em;
-        margin-bottom: 4em;
+        padding-bottom: 4em;
     }
 
     footer {
